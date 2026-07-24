@@ -1,0 +1,68 @@
+site_name: CCP-NC Magres Database - Staging
+site_description: User documentation for the CCP-NC Magres Database staging deployment (NOMAD Oasis)
+site_url: https://ccp-nc.github.io/ccpnc-magres-staging-docs/
+repo_url: https://github.com/CCP-NC/ccpnc-magres-staging-docs
+repo_name: CCP-NC/ccpnc-magres-staging-docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Accessing the Site: getting-started/accessing-the-site.md
+      - Logging In: getting-started/authentication.md
+  - User Guide:
+      - Searching the Database: user-guide/search.md
+      - Understanding Search Results: user-guide/results.md
+      - Working with Datasets: user-guide/datasets.md
+      - Uploading Data: user-guide/upload.md
+      - Updating Metadata: user-guide/metadata-update.md
+  - Reference:
+      - FAQ: reference/faq.md
+      - Glossary: reference/glossary.md
+  - Support: reference/support.md
