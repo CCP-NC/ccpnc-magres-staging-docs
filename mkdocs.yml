@@ -24,8 +24,6 @@ theme:
         name: Switch to light mode
   features:
     - navigation.tabs
-    - navigation.sections
-    - navigation.expand
     - navigation.top
     - navigation.footer
     - search.suggest
@@ -33,6 +31,7 @@ theme:
     - content.code.copy
     - content.tabs.link
     - toc.follow
+    - toc.integrate
   icon:
     repo: fontawesome/brands/github
 
@@ -47,15 +46,16 @@ markdown_extensions:
   - toc:
       permalink: true
   - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - search
 
 nav:
   - Home: index.md
-  - Getting Started:
-      - Accessing the Site: getting-started/accessing-the-site.md
-      - Logging In: getting-started/authentication.md
+  - Getting Started: getting-started.md
   - User Guide:
       - Searching the Database: user-guide/search.md
       - Understanding Search Results: user-guide/results.md
