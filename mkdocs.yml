@@ -61,7 +61,7 @@ nav:
   - Getting Started: getting-started.md
   - User Guide:
       - Searching the Database: user-guide/search.md
-      - Understanding Search Results: user-guide/results.md
+      - Viewing Results: user-guide/results.md
       - Working with Datasets: user-guide/datasets.md
       - Uploading Data: user-guide/upload.md
       - Updating Metadata: user-guide/metadata-update.md
