@@ -62,7 +62,7 @@ nav:
   - User Guide:
       - Searching the Database: user-guide/search.md
       - Viewing Results: user-guide/results.md
-      - Working with Datasets: user-guide/datasets.md
+      - Datasets: user-guide/datasets.md
       - Uploading Data: user-guide/upload.md
       - Updating Metadata: user-guide/metadata-update.md
   - Reference:
