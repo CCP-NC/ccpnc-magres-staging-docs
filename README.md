@@ -4,7 +4,7 @@ Source for the user documentation site, built with [MkDocs Material](https://squ
 
 ## Layout
 
-- `docs/` — the documentation content (Markdown), organized to match the site's user flow: getting started → search → results → datasets → upload → metadata update → reference/FAQ.
+- `docs/` — the documentation content (Markdown), organized to match the site's user flow: getting started → search → results → upload → datasets → FAQ.
 - `docs/assets/screenshots/` — cropped/annotated screenshots actually used in the published docs.
 - `raw-materials/` — screenshots and the legacy FAQ page as provided for reference; not published, not linked from `mkdocs.yml`.
 - `mkdocs.yml` — site config, theme, and navigation.

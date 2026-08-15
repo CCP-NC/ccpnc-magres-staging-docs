@@ -70,7 +70,7 @@ This documentation is organised according to the typical workflow followed by mo
 
 Whether you are exploring published datasets, depositing new calculations or learning how the database is organised, each section focuses on a specific stage of interacting with the CCP-NC Database.
 
-The guide begins with platform access and authentication before progressing through searching, browsing individual results and datasets, uploading data, and metadata management.
+The guide begins with platform access and authentication before progressing through searching, browsing individual results, uploading your own data, and organising records into datasets.
 
 ## Quick Start
 
@@ -100,8 +100,8 @@ If you are new to the database, we recommend the following order:
 1. Learn how to [access the staging platform](getting-started.md#accessing-the-staging-database).
 2. Explore the [search interface](user-guide/search.md) and become familiar with the available filters.
 3. [View individual records](user-guide/results.md) to understand the available metadata and computational information.
-4. Browse complete [datasets](user-guide/datasets.md) associated with published research.
-5. If you'd like to learn about contributing data, continue to the [Uploading](user-guide/upload.md) documentation.
+4. If you'd like to learn about contributing data, continue to the [Uploading](user-guide/upload.md) documentation.
+5. Browse complete [datasets](user-guide/datasets.md) associated with published research.
 
 ## Explore the Documentation
 
@@ -131,14 +131,6 @@ If you are new to the database, we recommend the following order:
 
     [:octicons-arrow-right-24: Understand results](user-guide/results.md)
 
--   __Datasets__
-
-    ---
-
-    Browse collections of related computational results grouped by publication or dataset.
-
-    [:octicons-arrow-right-24: Browse datasets](user-guide/datasets.md)
-
 -   __Uploading__
 
     ---
@@ -147,13 +139,13 @@ If you are new to the database, we recommend the following order:
 
     [:octicons-arrow-right-24: Start uploading](user-guide/upload.md)
 
--   __Reference__
+-   __Datasets__
 
     ---
 
-    Background information, terminology and supporting technical reference material for the CCP-NC Database.
+    Browse collections of related computational results grouped by publication or dataset.
 
-    [:octicons-arrow-right-24: See reference](reference/glossary.md)
+    [:octicons-arrow-right-24: Browse datasets](user-guide/datasets.md)
 
 -   __FAQ__
 
