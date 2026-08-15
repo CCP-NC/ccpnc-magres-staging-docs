@@ -8,6 +8,17 @@ The CCP-NC Database provides several complementary methods for discovering compu
 
 Many searchable fields are accessible using more than one search tool. Throughout this guide, the recommended workflow for each search field is explained together with worked examples, helping you choose the most effective search method for your particular task.
 
+To get to the search workspace from the landing page, click
+
+> **Explore** → **CCP-NC NMR APP**
+
+to reach the specially customised NMR Crystallography dashboard.
+
+<figure markdown="1">
+  ![Explore menu showing the CCP-NC NMR App option](../assets/screenshots/search/explore_ccpnc-nmr-app.png)
+  <figcaption>The Explore menu, listing Simulation and the CCP-NC NMR App.</figcaption>
+</figure>
+
 ---
 
 ## Understanding the Search Interface
